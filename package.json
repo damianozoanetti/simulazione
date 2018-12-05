@@ -1,0 +1,24 @@
+{
+  "name": "simulazione",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enricoberthod/simulazione.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enricoberthod/simulazione/issues"
+  },
+  "homepage": "https://github.com/enricoberthod/simulazione#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  }
+}
