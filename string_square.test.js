@@ -1,7 +1,9 @@
 const string_square = require('./string_square').string_square
 
-const stringa = 'prova'
-const stringa_vuota = ''
+const stringa = 'prova';
+const stringa_vuota = '';
+const stringa_null = null;
+var stringa_undefined;
 
 
 //VALIDI
@@ -16,3 +18,15 @@ test('parametro passato è una stringa vuota', () => {
 
 
 //NON VALIDI
+
+test('parametro passato è null', () => {
+	expect(string_square(stringa_null)).toBe(-1);
+});
+
+test('parametro non passato', () => {
+	expect(string_square()).toBe(-1);
+});
+
+test('parametro undefined', () => {
+	expect(string_square(stringa_undefined)).toBe(-1);
+});
