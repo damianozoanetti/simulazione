@@ -38,3 +38,11 @@ test('GET /square?string=hello should return 200 and result property in body', (
       expect(rjson.result).toBeDefined();
     });
 });
+
+
+/*
+
+before_script:
+  - npm start &
+  
+*/
