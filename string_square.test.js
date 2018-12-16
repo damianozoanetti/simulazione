@@ -30,3 +30,7 @@ test('parametro non passato', () => {
 test('parametro undefined', () => {
 	expect(string_square(stringa_undefined)).toBe(-1);
 });
+
+test('parametro non stringa', () => {
+	expect(string_square(200)).toBe(-1);
+});
