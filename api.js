@@ -5,8 +5,8 @@ var bodyParser = require('body-parser')
 app.use( bodyParser.json() )
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const PORT = process.env.PORT || 8000
-const url = 'http://localhost:8000'
+const PORT = process.env.PORT || 8001
+const url = 'http://localhost:8001'
 
 const string_square = require('./string_square').string_square
 
